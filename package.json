@@ -1,0 +1,21 @@
+{
+  "name": "ChainsList",
+  "version": "0.0.1",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "truffle migrate --compile-all --reset --network ganache && truffle test --network ganache"
+  },
+  "author": "Felipe F. S.",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "web3": "^1.0.0-beta.35"
+  }
+}
